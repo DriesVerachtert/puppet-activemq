@@ -71,7 +71,7 @@
 # === Copyright
 # Steve Traylen, CERN, 2014, steve.traylen@cern.ch
 #
-define activemq::auth ($type,$path=$title, $configfile = $::activemq::configfile, 
+define activemq::auth ($type,$path=$title, $configfile = $::activemq::configfile,
                        $read   = [],
                        $write  = [],
                        $admin  = []  )

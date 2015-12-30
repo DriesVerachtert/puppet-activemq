@@ -86,7 +86,7 @@ class activemq::config inherits activemq {
       }
       datacat_fragment{'ssl_context':
          target => $configfile,
-         data   => { 
+         data   => {
                       ssl =>
                         { 'keyStore'         => "${configdir}/keystore.jks",
                           'keyStorePassword' => $keystore_pass
